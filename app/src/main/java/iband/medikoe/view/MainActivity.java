@@ -20,11 +20,12 @@ import iband.medikoe.presenter.HomePresenter;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView list;
+    private RecyclerView recyclerView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
     }
 
