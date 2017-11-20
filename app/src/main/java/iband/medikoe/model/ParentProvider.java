@@ -14,6 +14,9 @@ public class ParentProvider implements ParentObject {
     private UUID id;
     private String title;
 
+    public ParentProvider() {
+    }
+
     public ParentProvider(String title) {
         this.title = title;
         id = UUID.randomUUID();
